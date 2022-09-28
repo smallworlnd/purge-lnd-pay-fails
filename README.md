@@ -1,3 +1,6 @@
+## This repo is deprecated
+This code is no longer useful since cleaning failed payments and failed HTLCs is now easily done via `lncli`.
+
 # purge-lnd-pay-fails
 
 Do you run auto-rebalance scripts? Have you collected a huge amount of failed payments over the years and it's bogging down your node? It's a good idea to get rid of that dead weight to keep your node running optimally. This script can delete failed htlcs within payments and failed payments depending on how you choose to run it.
